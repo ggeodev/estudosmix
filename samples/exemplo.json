@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "source": "EXEMPLO",
+    "bank": "Demonstração",
+    "exam": "EXEMPLO — questões fictícias de demonstração",
+    "created_at": "2026-11-23"
+  },
+  "questions": [
+    {
+      "id": "DEMO-001",
+      "subject": "Língua Portuguesa",
+      "topics": ["Concordância verbal"],
+      "year": 2026,
+      "statement": "Assinale a alternativa em que a concordância verbal está de acordo com a norma-padrão.",
+      "alternatives": {
+        "A": "Fazem dois anos que moramos neste bairro.",
+        "B": "Haviam muitas pessoas na fila do banco.",
+        "C": "Devem existir soluções para o problema.",
+        "D": "Houveram vários problemas na reunião.",
+        "E": "Existe muitas soluções para o problema."
+      },
+      "correct_answer": "C",
+      "explanation": "O verbo 'existir' concorda com o sujeito 'soluções' (plural), e o auxiliar 'dever' acompanha: 'Devem existir'. Nas demais, 'fazer' (tempo decorrido) e 'haver' (existir) são impessoais e ficam no singular; 'existe' deveria ir ao plural.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "DEMO-002",
+      "subject": "Língua Portuguesa",
+      "topics": ["Crase"],
+      "year": 2026,
+      "statement": "Assinale a alternativa em que o acento grave indicativo de crase está empregado corretamente.",
+      "alternatives": {
+        "A": "Fui à pé até o mercado.",
+        "B": "Entreguei o documento à ela.",
+        "C": "Refiro-me à situação descrita no texto.",
+        "D": "Ele disse à todos que partiria.",
+        "E": "Estamos dispostos à colaborar."
+      },
+      "correct_answer": "C",
+      "explanation": "'Referir-se' exige a preposição 'a' e 'situação' admite o artigo 'a': a + a = à. Não há crase antes de pronome pessoal (B), de palavra masculina (A), de pronome indefinido (D) ou de verbo (E).",
+      "difficulty": "média"
+    },
+    {
+      "id": "DEMO-003",
+      "subject": "Língua Portuguesa",
+      "topics": ["Interpretação de texto"],
+      "year": 2026,
+      "support_text": "A leitura diária de textos variados amplia o vocabulário e a capacidade de argumentação do leitor.",
+      "statement": "Segundo o texto, a leitura diária de textos variados:",
+      "alternatives": {
+        "A": "reduz o tempo necessário de estudo.",
+        "B": "amplia o vocabulário e a capacidade de argumentação.",
+        "C": "dispensa a prática da escrita.",
+        "D": "é útil apenas para estudantes.",
+        "E": "substitui o ensino formal."
+      },
+      "correct_answer": "B",
+      "explanation": "A alternativa B reproduz literalmente a ideia central do texto; as demais afirmam algo que o texto não diz."
+    },
+    {
+      "id": "DEMO-004",
+      "subject": "Matemática",
+      "topics": ["Porcentagem"],
+      "year": 2026,
+      "statement": "Um produto custava R$ 200,00, sofreu um aumento de 20% e, em seguida, um desconto de 20% sobre o novo preço. Qual é o preço final?",
+      "alternatives": {
+        "A": "R$ 200,00",
+        "B": "R$ 196,00",
+        "C": "R$ 192,00",
+        "D": "R$ 188,00",
+        "E": "R$ 180,00"
+      },
+      "correct_answer": "C",
+      "explanation": "200 × 1,20 = 240; 240 × 0,80 = 192. Aumentos e descontos percentuais sucessivos incidem sobre bases diferentes, por isso não se anulam.",
+      "difficulty": "fácil"
+    },
+    {
+      "id": "DEMO-005",
+      "subject": "Matemática",
+      "topics": ["Juros compostos", "Porcentagem"],
+      "year": 2026,
+      "statement": "Um capital de R$ 1.000,00 é aplicado a juros compostos de 10% ao mês durante 2 meses. Qual é o montante ao final do período?",
+      "alternatives": {
+        "A": "R$ 1.200,00",
+        "B": "R$ 1.210,00",
+        "C": "R$ 1.220,00",
+        "D": "R$ 1.100,00",
+        "E": "R$ 1.021,00"
+      },
+      "correct_answer": "B",
+      "explanation": "M = C × (1 + i)^n = 1000 × 1,1² = 1000 × 1,21 = 1210.",
+      "difficulty": "média"
+    },
+    {
+      "id": "DEMO-006",
+      "subject": "Direito Constitucional",
+      "topics": ["Remédios constitucionais > Mandado de segurança"],
+      "year": 2026,
+      "statement": "De acordo com a Lei nº 12.016/2009, o direito de requerer mandado de segurança extinguir-se-á decorrido o prazo de:",
+      "alternatives": {
+        "A": "30 dias, contados da ciência do ato impugnado.",
+        "B": "60 dias, contados da ciência do ato impugnado.",
+        "C": "90 dias, contados da ciência do ato impugnado.",
+        "D": "120 dias, contados da ciência do ato impugnado.",
+        "E": "5 anos, contados da ciência do ato impugnado."
+      },
+      "correct_answer": "D",
+      "explanation": "O art. 23 da Lei 12.016/2009 fixa prazo decadencial de 120 dias, contados da ciência, pelo interessado, do ato impugnado.",
+      "difficulty": "média"
+    },
+    {
+      "id": "DEMO-007",
+      "subject": "Tecnologia da Informação",
+      "topics": ["SQL", "Banco de Dados"],
+      "year": 2026,
+      "statement": "Qual comando SQL é utilizado para remover linhas de uma tabela de acordo com uma condição definida em WHERE?",
+      "alternatives": {
+        "A": "DROP",
+        "B": "TRUNCATE",
+        "C": "DELETE",
+        "D": "REMOVE",
+        "E": "ERASE"
+      },
+      "correct_answer": "C",
+      "explanation": "DELETE remove linhas e aceita WHERE. TRUNCATE esvazia a tabela inteira (sem WHERE) e DROP remove a própria tabela. REMOVE e ERASE não são comandos SQL padrão.",
+      "difficulty": "fácil"
+    }
+  ]
+}
